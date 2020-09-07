@@ -1,7 +1,9 @@
 <?php
 
+if ( isset($argv[1]) ) {
 $eek = $argv[1];
-
+}else {
+   $seek = readline("sisesta kroonid: ");
+}   
 echo "eurodes:" $eek / 15.6455;
-
 echo "\n";
