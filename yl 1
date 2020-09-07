@@ -6,4 +6,7 @@ $eek = $argv[1];
    $seek = readline("sisesta kroonid: ");
 }   
 echo "eurodes:" $eek / 15.6455;
+
+echo "\n";
+echo 2 . 2;
 echo "\n";
